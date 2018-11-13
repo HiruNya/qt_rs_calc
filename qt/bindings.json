@@ -1,0 +1,47 @@
+{
+    "cppFile": "Bindings.cpp",
+    "rust": {
+        "dir": "",
+        "interfaceModule": "interface",
+        "implementationModule": "implementation"
+    },
+    "objects": {
+        "Calculator": {
+            "type": "Object",
+            "properties": {
+                "view": {
+                    "type": "QString",
+                    "write": false
+                }
+            },
+            "functions": {
+                "number": {
+                    "return": "void",
+                    "mut": true,
+                    "arguments": [{
+                        "name": "num",
+                        "type": "quint8"
+                    }]
+                },
+                "op": {
+                    "return": "void",
+                    "mut": true,
+                    "arguments": [{
+                        "name": "op",
+                        "type": "quint8"
+                    }]
+                },
+                "calculate": {
+                    "return": "void",
+                    "mut": true,
+                    "arguments": []
+                },
+                "clear": {
+                    "return": "void",
+                    "mut": true,
+                    "arguments": []
+                }
+            }
+        }
+    }
+}

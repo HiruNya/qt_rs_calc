@@ -1,0 +1,12 @@
+[package]
+name = "qt_rs_calc"
+version = "0.1.0"
+build = "build.rs"
+links = "qt_rs_calc"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+# Custom version of rust_qt_binding_generator used due to qrc being in a subfolder
+rust_qt_binding_generator = { git = "https://github.com/HiruNya/rust-qt-binding-generator.git" }
