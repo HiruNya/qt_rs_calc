@@ -8,5 +8,5 @@ links = "qt_rs_calc"
 libc = "0.2"
 
 [build-dependencies]
-# Custom version of rust_qt_binding_generator used due to qrc being in a subfolder
-rust_qt_binding_generator = { git = "https://github.com/HiruNya/rust-qt-binding-generator.git" }
+rust_qt_binding_generator = { git = "git://anongit.kde.org/rust-qt-binding-generator" }
+
